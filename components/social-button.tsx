@@ -5,8 +5,9 @@ export function SocialButton({ social }: { social: Social }) {
   return (
     <a
       href={social.href}
-      target="_blank"
-      rel="noopener noreferrer"
+      target={social.external ? "_blank" : undefined}
+      rel={social.external ? "noopener noreferrer" : undefined}
+      aria-label={`${social.name} — AUTO_REIT`}
       className="group relative flex flex-col items-center justify-center gap-3 rounded-2xl border border-border bg-card px-4 py-6 text-center transition-transform duration-200 hover:-translate-y-1 focus-visible:-translate-y-1 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:py-8"
       style={{
         boxShadow: `inset 0 0 0 1px ${social.glow}, 0 0 24px -8px ${social.glow}`,
