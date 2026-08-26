@@ -53,9 +53,10 @@ export const siteConfig = {
   ],
   benefits: [
     {
-      icon: "shield",
-      title: "Надійність",
-      text: "Працюємо чесно та прозоро",
+      icon: "Car",
+      title: "Купити авто",
+      text: "Знайдіть своє авто у нас. ",
+      text: "Широкий вибір автомобілів для будь-яких потреб та бюджету.",
     },
     {
       icon: "gauge",
