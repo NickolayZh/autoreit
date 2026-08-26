@@ -18,18 +18,18 @@ export function Hero() {
           </p>
         </div>
 
-        <div className="relative -mb-14 -mt-16 sm:-mb-20 sm:-mt-24 lg:mb-0 lg:mt-0">
+        <div className="relative -mb-8 -mt-6 sm:-mb-12 sm:-mt-10 lg:-mr-10 lg:mb-0 lg:mt-0 xl:-mr-20">
           <div
             aria-hidden
-            className="absolute inset-0 -z-10 bg-[radial-gradient(60%_60%_at_60%_50%,rgba(239,32,42,0.28),transparent_70%)]"
+            className="absolute inset-0 -z-10 bg-[radial-gradient(55%_55%_at_55%_50%,rgba(239,32,42,0.3),transparent_72%)]"
           />
           <Image
             src="/images/hero-car.png"
-            alt="Червоний спортивний автомобіль BMW у руху зі світловими слідами"
-            width={1024}
-            height={1024}
+            alt="Червоний спортивний автомобіль BMW M4 у руху зі червоними світловими слідами"
+            width={1160}
+            height={912}
             priority
-            className="ml-auto w-[115%] max-w-2xl select-none object-contain mix-blend-screen lg:w-full [mask-image:radial-gradient(closest-side,black_45%,transparent_92%)]"
+            className="ml-auto w-[118%] max-w-none select-none object-contain mix-blend-screen lg:w-[108%] [mask-image:radial-gradient(farthest-side_at_50%_50%,black_30%,transparent_90%)]"
           />
         </div>
       </div>

@@ -1,4 +1,4 @@
-import { Award, ChevronRight, Gauge, Handshake, ShieldCheck } from "lucide-react"
+import { Award, Gauge, Handshake, ShieldCheck } from "lucide-react"
 import { siteConfig } from "@/lib/site"
 
 const icons = {
@@ -28,7 +28,6 @@ export function Benefits() {
                 <h2 className="text-base font-bold text-card-foreground sm:text-lg">{benefit.title}</h2>
                 <p className="mt-0.5 text-sm leading-relaxed text-muted-foreground sm:text-base">{benefit.text}</p>
               </div>
-              <ChevronRight aria-hidden className="size-5 shrink-0 text-primary sm:size-6" />
             </li>
           )
         })}

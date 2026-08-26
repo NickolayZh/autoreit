@@ -15,7 +15,7 @@ export default function Page() {
       />
       <div
         aria-hidden
-        className="pointer-events-none absolute -right-32 top-16 h-[28rem] w-[42rem] rotate-[-14deg] bg-[repeating-linear-gradient(100deg,rgba(239,32,42,0.4)_0px,rgba(239,32,42,0.4)_2px,transparent_2px,transparent_28px)] opacity-50 blur-[3px] [mask-image:radial-gradient(closest-side,black_20%,transparent_85%)]"
+        className="pointer-events-none absolute -right-40 top-24 h-[24rem] w-[36rem] rotate-[-12deg] bg-[repeating-linear-gradient(100deg,rgba(239,32,42,0.35)_0px,rgba(239,32,42,0.35)_2px,transparent_2px,transparent_34px)] opacity-25 blur-[4px] [mask-image:radial-gradient(closest-side,black_15%,transparent_80%)]"
       />
 
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
