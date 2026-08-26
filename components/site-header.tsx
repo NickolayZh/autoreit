@@ -5,14 +5,16 @@ export function SiteHeader() {
   return (
     <header className="relative z-20 flex flex-col gap-4 pt-6 sm:pt-8">
       <div className="flex items-start justify-between gap-4">
-        <Image
-          src="/images/logo.png"
-          alt={`Логотип ${siteConfig.brand}`}
-          width={512}
-          height={512}
-          priority
-          className="h-24 w-24 scale-110 object-contain mix-blend-screen sm:h-28 sm:w-28 lg:h-32 lg:w-32 [mask-image:radial-gradient(closest-side,black_72%,transparent_98%)]"
-        />
+        <div className="relative h-20 w-24 overflow-hidden sm:h-24 sm:w-28 lg:h-28 lg:w-32">
+          <Image
+            src="/images/auto-reit-logo.png"
+            alt={`Логотип ${siteConfig.brand}`}
+            width={456}
+            height={402}
+            priority
+            className="absolute left-1/2 top-1/2 w-[125%] max-w-none -translate-x-1/2 -translate-y-1/2 object-contain mix-blend-screen"
+          />
+        </div>
       </div>
 
       <ul className="flex flex-wrap items-center justify-end gap-x-3 gap-y-1 text-sm font-medium tracking-wide text-foreground sm:text-base lg:text-lg">
